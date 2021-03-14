@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.line-contact {
+    background-color: black;
+    height: 4vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow-x: hidden;
+    z-index: 5;
+}
+
+.line-contact a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+.number-email ul {
+    list-style: none;
+    margin-left: 25vw;
+}
+
+.social {
+    margin-right: 25vw;
+}
+
+.fa-facebook,
+.fa-instagram {
+    font-size: 16px !important;
+}
+
+.social a {
+    padding: 0 10px;
+}
+
+header {
+    position: absolute;
+    top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #FCA203;
+    color: whitesmoke;
+    position: sticky;
+    left: 0;
+    right: 0;
+    z-index: 6;
+}
+
+.active-li {
+    background-color: #fff;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.logo {
+    margin-left: 15vw;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 15vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+header .fa-bars {
+    display: none;
+}
+
+.main {
+    background: url('https://images.pexels.com/photos/5946604/pexels-photo-5946604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+}
+
+.main span {
+    color: #b40505;
+}
+
+.main h3 {
+    padding-right: 0;
+    width: 30%;
+    text-align: center;
+    color: #FCA203;
+    margin-left: 65vw;
+    font-size: 35px;
+}
+
+section {
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+.description img {
+    width: 50%;
+}
+
+.description p {
+    padding: 0 35px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.services-title {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.services-title span {
+    color: #FCA203;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 7vh;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    padding: 10px;
+    width: 20%;
+    border: 2px solid #FCA203;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    overflow-x: hidden;
+    margin-top: 15vh;
+    background-color: #FCA203;
+    width: 100vw;
+}
+
+.futer {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    margin-left: 20vw;
+}
+
+.futerdesno,
+.futerlevo,
+.futer-socijalne-mreze {
+    text-align: center;
+}
+
+.futerdesno p,
+.futerlevo p,
+.futer-socijalne-mreze p {
+    padding: 1vh;
+    font-size: 15px;
+}
+
+.linija-kraj {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.linija-kraj p {
+    padding: 8px;
+    text-align: center;
+}
+
+.futer .fa {
+    padding-right: 10px;
+}
+
+.futer ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.futer a {
+    text-decoration: none;
+    color: black;
+    transform: 1s all inherit;
+}
+
+.futer li a span:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
+.futerlevo p:first-child,
+.futerdesno p:first-child,
+.futer-socijalne-mreze p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*                        O NAMA       i USLUGE    */
+
+.container {
+    width: 60vw;
+    margin: 8vh 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.slika-container {
+    width: 60vw;
+    margin: 8vh 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.container img {
+    margin: 0 10px;
+    width: 50%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slika-container img {
+    margin: 0 10px;
+    width: 100%;
+}
+
+.container h3 {
+    font-weight: normal;
+}
+
+.container .slika-jedna {
+    width: 100%;
+}
+
+.naslov-opis {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.naslov-opis h2 {
+    font-size: 20px;
+    margin-bottom: 4vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.naslov-opis p {
+    font-size: 16px;
+}
+
+.poslednji img {
+    width: 30%;
+}
+
+
+/* GALERIJA                    */
+
+.galerija-slike {
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px 300px;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.gallery-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.gallery-item .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery-item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.gallery-item:hover .image img {
+    transform: scale(1.5);
+}
+
+.gallery-item .text {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    pointer-events: none;
+    z-index: 4;
+    transition: .3s ease-in-out;
+    -webkit-backdrop-filter: blur(5px) saturate(1.8);
+    backdrop-filter: blur(5px) saturate(1.8);
+}
+
+.gallery-item:hover .text {
+    opacity: 1;
+    animation: move-down .3s linear;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.w-1 {
+    grid-column: span 1;
+}
+
+.w-2 {
+    grid-column: span 2;
+}
+
+.w-3 {
+    grid-column: span 3;
+}
+
+.w-4 {
+    grid-column: span 4;
+}
+
+.w-5 {
+    grid-column: span 5;
+}
+
+.w-6 {
+    grid-column: span 6;
+}
+
+.h-1 {
+    grid-row: span 1;
+}
+
+.h-2 {
+    grid-row: span 2;
+}
+
+.h-3 {
+    grid-row: span 3;
+}
+
+.h-4 {
+    grid-row: span 4;
+}
+
+.h-5 {
+    grid-row: span 5;
+}
+
+.h-6 {
+    grid-row: span 6;
+}
+
+
+/*********************KONTAKT********************/
+
+.kontakt-podaci {
+    padding: 5vh 2vw;
+    border-top-left-radius: 30px;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapa p {
+    margin-right: 10vw;
+}
+
+.mapa iframe {
+    border: 2px solid #FCA203;
+    box-shadow: 3px 5px 60px rgba(0, 0, 0, 0.7);
+    width: 400px;
+    height: 250px;
+}
+
+.telefon-broj,
+.email-zakazivanje {
+    margin-top: 10vh;
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+
+.telefon-broj p,
+.email-zakazivanje p {
+    margin-bottom: 1vh;
+}
+
+.telefon-broj:hover,
+.email-zakazivanje:hover {
+    transform: scale(1.3);
+}
+
+.mapa:hover {
+    transition: .5s all linear;
+    transform: scale(1.3);
+}
+
+.mapa p,
+.telefon-broj p:first-child,
+.email-zakazivanje p:first-child {
+    color: #000;
+    font-weight: bold;
+}
+
+.telefon-broj p:nth-child(2),
+.email-zakazivanje p:nth-child(2) {
+    background-color: #FCA203;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.7);
+    color: #000;
+}
+
+.cont-form {
+    display: flex;
+    width: 30%;
+    margin-top: 15vh;
+    margin-left: 35%;
+    margin-bottom: 10vh;
+    border: 2px solid #FCA203;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+form {
+    padding-top: 3vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+input {
+    padding-left: 1vw;
+    height: 5vh;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+form .submit {
+    text-transform: uppercase;
+    padding-left: 0;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    width: 10vw;
+    cursor: pointer;
+}
+
+textarea {
+    padding-left: 1vw;
+    resize: none;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.pic6 {
+    width: 30%;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 15vh;
+}
+
+.br-telemail h2 {
+    text-align: end;
+}
+
+@media (max-width: 1158px) {
+    header nav ul li a {
+        font-size: 12px;
+    }
+    .boxes {
+        flex-direction: column;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+}
+
+@media (max-width: 958px) {
+    .galerija-slike {
+        width: 70vw !important;
+        margin-left: 15vw !important;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .active-li {
+        background-color: #fff;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        display: block;
+        padding: 15px;
+        border-radius: 0;
+        color: black;
+    }
+    .line-contact {
+        width: 100vw;
+    }
+    header {
+        width: 100vw;
+    }
+    header .fa-bars {
+        display: block;
+        font-size: 26px;
+        margin-right: 10vw;
+        cursor: pointer;
+        color: #000;
+    }
+    header nav {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        left: -80vw;
+        top: 10vh;
+    }
+    header nav ul {
+        width: 80vw;
+    }
+    header nav.show {
+        position: absolute;
+        text-align: center;
+        display: block;
+        width: 80vw;
+        top: 10vh;
+        transition: 1s all ease;
+        left: 20vw;
+    }
+    .nav-podaci ul {
+        height: 70vh;
+        background-color: black;
+        flex-direction: column;
+        border-bottom-left-radius: 40px;
+    }
+    .nav-podaci ul li {
+        padding: 2vh 0;
+        display: block;
+    }
+    .nav-podaci ul li a {
+        font-size: 16px;
+        color: #fff;
+        transition: 1s all ease;
+    }
+    .nav-podaci ul li a:hover {
+        font-weight: bold;
+    }
+    nav ul li a.active-li,
+    nav ul li a:hover {
+        display: block;
+        color: #000;
+        border: 3px solid #FCA203;
+    }
+    nav ul.show {
+        display: flex;
+        left: 20;
+    }
+    .number-email ul {
+        list-style: none;
+        margin-left: 5vw;
+        font-size: 8px;
+    }
+    .broj-mail ul li a {
+        font-size: 10px;
+    }
+    .social {
+        margin-right: 5vw;
+    }
+    .social .fa-facebook,
+    .fa-instagram {
+        font-size: 14px !important;
+    }
+    .main h3 {
+        width: 50vw;
+        margin-left: 30vw;
+        margin-right: 20vw;
+        padding: 2vh 2vw;
+        margin-right: 0;
+        font-size: 26px;
+        background-color: #000;
+        text-align: center;
+    }
+    .futer {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 60vw;
+        margin-left: 20vw;
+    }
+    .futerlevo p,
+    .futerdesno p,
+    .futer-socijalne-mreze p {
+        font-size: 12px;
+    }
+    .futerlevo p:first-child,
+    .futerdesno p:first-child,
+    .futer-socijalne-mreze p:first-child {
+        font-weight: bold;
+    }
+    .futerdesno p:last-child,
+    .futerlevo p:last-child,
+    .futer-socijalne-mreze p:last-child {
+        margin-bottom: 2vh;
+    }
+    .galerija-slike {
+        width: 80vw !important;
+        margin-left: 10vw !important;
+    }
+    .cont-form {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .form-control {
+        width: 60vw;
+    }
+    .container {
+        width: 80vw;
+        margin-left: 10vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        flex-direction: column;
+    }
+    .container img {
+        margin: 0 10px;
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: bottom;
+        padding-bottom: 5vh;
+    }
+    .description {
+        width: 100%;
+        flex-direction: column;
+    }
+    .description img {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    .slika-container {
+        margin-top: -5vh !important;
+        width: 80vw;
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+    .slika-container img {
+        width: 100%;
+    }
+    section {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .container .slika-jedna {
+        margin-top: 2vh;
+        width: 100%;
+    }
+    .poslednji {
+        margin-right: 10vw;
+        width: 60vw;
+    }
+    .poslednji img {
+        height: auto;
+    }
+    .opis {
+        flex-direction: column;
+    }
+    .opis img {
+        width: 100%;
+    }
+    .opis p {
+        padding: 5vh 0;
+        width: 100%;
+        text-align: justify;
+    }
+    .container h3 {
+        font-weight: normal;
+        font-size: 14px;
+    }
+    .kontakt-podaci p {
+        font-weight: bold;
+    }
+    .linija-kraj p {
+        font-size: 10px;
+    }
+    .mapa:hover {
+        transform: scale(1.05);
+    }
+    form .submit {
+        width: 30vw;
+        font-size: 10px;
+        padding: 1vh 0;
+        height: auto;
+        text-align: center;
+    }
+    .mapa {
+        width: 90vw;
+    }
+    .mapa iframe {
+        width: 50%;
+    }
+}
+
+@media (max-width:400px) {
+    body {
+        overflow-x: hidden;
+    }
+    .submit {
+        font-size: 6.5px;
+    }
+}

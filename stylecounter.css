@@ -1,0 +1,87 @@
+.div-count {
+    margin-top: 10vh;
+    width: 150px;
+    margin-left: 90vw;
+}
+
+.div-count .counter {
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #fca203;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.div-count .counter p {
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+}
+
+.div-count .counter h1 {
+    color: #000;
+    font-size: 18px;
+}
+
+@media (max-width:1650px) {
+    .div-count {
+        margin-left: 85vw;
+    }
+    .div-count .counter p {
+        font-size: 12px;
+    }
+    .div-count .counter h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:1085px) {
+    .div-count {
+        width: 120px;
+        margin-left: 85vw;
+    }
+    .div-count .counter p {
+        font-size: 12px;
+    }
+    .div-count .counter h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:865px) {
+    .div-count {
+        width: 120px;
+        margin-left: 80vw;
+    }
+}
+
+@media (max-width:630px) {
+    .div-count {
+        width: 120px;
+        margin-left: 75vw;
+    }
+}
+
+@media (max-width:515px) {
+    .div-count {
+        width: 110px;
+        margin-left: 75vw;
+    }
+    .div-count .counter p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:458px) {
+    .div-count {
+        margin-left: 70vw;
+    }
+    .div-count .counter p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:380px) {
+    .div-count {
+        display: none;
+    }
+}
